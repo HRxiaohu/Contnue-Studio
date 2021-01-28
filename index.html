@@ -2,7 +2,8 @@
 <html lang="cn">
 <head>
     <meta charset="UTF-8">
-    <title>...</title>
+    <title>Continue Studio</title>
+    <script src="./live2d-widget/autoload.js"></script>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script>
@@ -234,7 +235,6 @@
              :class="{blur:configs.wallpaperBlur, cross:backgroundCross}"
              :style="{'background-image':'url('+runtime.wallpaper+')'}"></div>
     </div>
-
     <!--任务栏-->
     <div class="bar" @contextMenu="barContextMenu" :style="barStyle" :class="{top:configs.topTaskBar}">
         <div class="mask" :style="{background:configs.themeColor}"></div>
