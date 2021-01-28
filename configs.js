@@ -7,8 +7,8 @@ YL.static = {
   contactInformation: 'HRxiaohu1@163.com',//联系方式
   officialWebsite: 'www.hrxiaohu.top',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
-  copyrightDetail: 'null',//版权详细信息
-  otherStatements: '© 2021 Continue Studio',//其他信息（可留空）
+  copyrightDetail: '© 2021 Continue Studio',//版权详细信息
+  otherStatements: '',//其他信息（可留空）
 
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
   /** YLUI基础设置 */
