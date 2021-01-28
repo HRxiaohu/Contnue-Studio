@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 222,
+        "idCounter": 228,
         "themeColor": "rgba(53,56,70,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -523,7 +523,7 @@
             "icon": {
                 "type": "fa",
                 "content": "dashboard",
-                "bg": "#db1453"
+                "bg": "52f75d"
             },
             "openMode": "min",
             "plugin": true,
@@ -543,7 +543,7 @@
                 "width": "x*0.8"
             },
             "title": "网站监控",
-            "url": "https://status.akilar.top/",
+            "url": "https://status.hrxiaohu.top/",
             "customTile": "",
             "urlRandomToken": true
         },
