@@ -523,7 +523,7 @@
             "icon": {
                 "type": "img",
                 "content": "https://status.hrxiaohu.top/favicon.ico",
-                "bg": "#52f75d"
+                "bg": "#ffffff"
             },
             "openMode": "min",
             "plugin": true,
@@ -576,7 +576,7 @@
                 "width": "x*0.8"
             },
             "title": "Waline",
-            "url": "https://waline.akilar.top/ui/",
+            "url": "https://waline.hrxiaohu.top/ui/",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -686,9 +686,9 @@
             "badge": 0,
             "desc": "HRxiaohu的个人博客",
             "icon": {
-                "type": "fa",
-                "content": "laptop",
-                "bg": "#000000"
+                "type": "img",
+                "content": "./res/img/blog.png",
+                "bg": "#ffffff"
             },
             "openMode": "outer",
             "plugin": false,
@@ -1251,7 +1251,7 @@
         },
         {
             "app": "HRxiaohu Blog",
-            "title": "站长的博客 ",
+            "title": "HRxiaohu",
             "params": {},
             "hash": ""
         },
