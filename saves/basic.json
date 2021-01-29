@@ -521,9 +521,9 @@
             "badge": 0,
             "desc": "",
             "icon": {
-                "type": "fa",
-                "content": "dashboard",
-                "bg": "52f75d"
+                "type": "img",
+                "content": "https://status.hrxiaohu.top/favicon.ico",
+                "bg": "#52f75d"
             },
             "openMode": "min",
             "plugin": true,
@@ -676,6 +676,39 @@
             },
             "title": "processon",
             "url": "https://www.processon.com/",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "HRxiaohu Blog": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "HRxiaohu的个人博客",
+            "icon": {
+                "type": "fa",
+                "content": "laptop",
+                "bg": "#000000"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "HRxiaohu",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "HRxiaohu的个人博客",
+            "url": "https://blog.hrxiaohu.top/",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -841,6 +874,39 @@
             },
             "title": "pug模板引擎",
             "url": "https://www.pugjs.cn/api/getting-started.html",
+            "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-cube": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "cube",
+                "bg": "#b5f7f4"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "魔方",
+            "url": "./res/apps/cube/index.html",
             "customTile": "",
             "urlRandomToken": false
         },
@@ -1184,6 +1250,12 @@
             "hash": ""
         },
         {
+            "app": "HRxiaohu Blog",
+            "title": "站长的博客 ",
+            "params": {},
+            "hash": ""
+        },
+        {
             "title": "语法手册",
             "children": [
                 {
@@ -1213,6 +1285,17 @@
                 {
                     "app": "npm",
                     "title": "npm中文文档",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "title": "小游戏",
+            "children": [
+                {
+                    "app": "app-cube",
+                    "title": "魔方",
                     "params": {},
                     "hash": ""
                 }
