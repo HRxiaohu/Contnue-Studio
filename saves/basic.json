@@ -687,7 +687,7 @@
             "desc": "HRxiaohu的个人博客",
             "icon": {
                 "type": "img",
-                "content": "./res/img/blog.png",
+                "content": "https://blog.hrxiaohu.top/img/favicon.png",
                 "bg": "#ffffff"
             },
             "openMode": "outer",
